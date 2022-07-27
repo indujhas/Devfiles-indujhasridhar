@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Destination_Field__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Destination Field</label>
+        <metadataRelationshipControllingField>Map_Data__mdt.Destination_Object__c</metadataRelationshipControllingField>
+        <referenceTo>FieldDefinition</referenceTo>
+        <relationshipLabel>Map_Datum1</relationshipLabel>
+        <relationshipName>Map_Datum1</relationshipName>
+        <required>false</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Destination_Object__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Destination Object</label>
+        <referenceTo>EntityDefinition</referenceTo>
+        <relationshipLabel>Map_Datum1</relationshipLabel>
+        <relationshipName>Map_Datum1</relationshipName>
+        <required>false</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OBJ__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>OBJ</label>
+        <referenceTo>EntityDefinition</referenceTo>
+        <relationshipLabel>Map_Datum2</relationshipLabel>
+        <relationshipName>Map_Datum2</relationshipName>
+        <required>false</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Source_Field__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Source Field</label>
+        <metadataRelationshipControllingField>Map_Data__mdt.Source_Object__c</metadataRelationshipControllingField>
+        <referenceTo>FieldDefinition</referenceTo>
+        <relationshipLabel>Map_Datum</relationshipLabel>
+        <relationshipName>Map_Datum</relationshipName>
+        <required>false</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Source_Object__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Source Object</label>
+        <referenceTo>EntityDefinition</referenceTo>
+        <relationshipLabel>Map_Datum</relationshipLabel>
+        <relationshipName>Map_Datum</relationshipName>
+        <required>false</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>field__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>field</label>
+        <metadataRelationshipControllingField>Map_Data__mdt.OBJ__c</metadataRelationshipControllingField>
+        <referenceTo>FieldDefinition</referenceTo>
+        <relationshipLabel>Map_Datum2</relationshipLabel>
+        <relationshipName>Map_Datum2</relationshipName>
+        <required>false</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields>
+    <label>Map Data</label>
+    <pluralLabel>Map Datum</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>
