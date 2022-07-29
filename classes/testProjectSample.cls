@@ -9,7 +9,8 @@ public class testProjectSample {
                                        CloseDate=Date.today()
                                        ));
         }
-        insert testProject;       
+        insert testProject; 
+			system.debug('Uzma made me do this');
     }
     //@isTest static void updateRecord() {}
     @isTest static void testOppRecord(){
