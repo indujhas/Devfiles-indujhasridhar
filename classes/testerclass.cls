@@ -4,7 +4,7 @@ public Indujha(){
     Integer a = 5;
     Integer b=6;
     Integer sum = a+b;
-    System.debug('Sum= '+sum);
+    System.debug('The new addition values are ='+sum);
 
 }
 
